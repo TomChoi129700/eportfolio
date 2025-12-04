@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choi Ka Ching | ePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Tom Choi</a>
+            <button class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#goals" class="nav-link">Career Goals</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="greeting">Hello, I'm</span>
+                <span class="name">Choi Ka Ching</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="typing" id="typing"></span>
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="icon.jpg" alt="Tom Choi Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Cloud & Data Centre Administration Student</h3>
+                    <p>
+                        I am a student at Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee),
+                        pursuing a Higher Diploma in Cloud and Data Centre Administration (2024-2026).
+                    </p>
+                    <p>
+                        I am passionate about cloud technology, artificial intelligence, and innovative solutions,
+                        committed to learning the latest cloud architecture and technologies, and applying theoretical knowledge to practical project development.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item stagger-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>HKIIT at IVE (Lee Wai Lee)</span>
+                        </div>
+                        <div class="info-item stagger-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud and Data Centre Administration</span>
+                        </div>
+                        <div class="info-item stagger-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>September 2024 - August 2026</span>
+                        </div>
+                    </div>
+                    <div class="certifications-inline">
+                        <h4>Professional Certifications</h4>
+                        <div class="cert-badges">
+                            <div class="cert-badge stagger-item">
+                                <i class="fab fa-google"></i>
+                                <span>Gemini Certified Educator</span>
+                            </div>
+                            <div class="cert-badge stagger-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS Academy Graduate</span>
+                            </div>
+                            <div class="cert-badge stagger-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS Solutions Architect – Associate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Technology</h3>
+                    <div class="skill-items">
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">Cloud Architecture</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">Data Center</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI & Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">AI/ML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">Chatbot Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item stagger-item">
+                            <span class="skill-name">Google Gemini</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-featured">
+                <div class="project-info">
+                    <span class="project-tag">Featured Project</span>
+                    <h3>Mental Health Chatbot</h3>
+                    <p>
+                        An AI chatbot project focused on mental health support.
+                        Combining natural language processing technology to provide real-time emotional support and mental health resources,
+                        helping users receive appropriate psychological counseling advice when needed.
+                    </p>
+                    <div class="project-tech">
+                        <span>AI</span>
+                        <span>NLP</span>
+                        <span>Cloud Computing</span>
+                        <span>Mental Health</span>
+                        <span>Python</span>
+                    </div>
+                    <div class="project-highlights">
+                        <div class="highlight-item stagger-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Real-time Emotional Support System</span>
+                        </div>
+                        <div class="highlight-item stagger-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Natural Language Understanding & Response</span>
+                        </div>
+                        <div class="highlight-item stagger-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cloud Deployment Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <div class="gallery-main">
+                        <img src="sdd/image.png" alt="Mental Health Chatbot" id="main-image" loading="eager">
+                    </div>
+                    <div class="gallery-thumbs">
+                        <img src="sdd/image.png" alt="Screenshot 1" class="thumb active" onclick="changeImage(this)" loading="eager">
+                        <img src="sdd/image1.png" alt="Screenshot 2" class="thumb" onclick="changeImage(this)" loading="eager">
+                        <img src="sdd/image2.png" alt="Screenshot 3" class="thumb" onclick="changeImage(this)" loading="eager">
+                        <img src="sdd/image3.png" alt="Screenshot 4" class="thumb" onclick="changeImage(this)" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Goals Section -->
+    <section id="goals" class="goals section">
+        <div class="container">
+            <h2 class="section-title">Career Goals</h2>
+            
+            <!-- Career Goal Statement -->
+            <div class="goal-statement">
+                <div class="goal-header">
+                    <div class="goal-header-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>My Career Goal</h3>
+                </div>
+                <p class="goal-description">
+                    As a student pursuing a Higher Diploma in Cloud and Data Centre Administration, I am committed to harnessing my knowledge and skills to become a 
+                    <strong>Cloud Solutions Architect</strong>. My career goal is to design and implement scalable, efficient, and secure cloud infrastructures that drive 
+                    business innovation and operational excellence. I aspire to bridge the gap between cutting-edge cloud technologies and real-world business needs, 
+                    particularly in sectors that can benefit from intelligent automation and AI-driven solutions. Through continuous learning and hands-on experience, 
+                    I aim to become a trusted technical leader who can architect comprehensive cloud ecosystems that not only meet current demands but are also 
+                    future-ready and adaptable to emerging technologies.
+                </p>
+            </div>
+
+            <div class="goals-content">
+                <!-- Steps to Reach Goal -->
+                <div class="goal-card goal-card-wide stagger-item collapsible-card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <div class="header-content">
+                            <div class="goal-icon">
+                                <i class="fas fa-route"></i>
+                            </div>
+                            <h3>Steps to Reach My Goal</h3>
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="card-content collapsed">
+                        <div class="steps-grid">
+                        <div class="step-item">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Complete Academic Foundation</h4>
+                                <p>Successfully complete my Higher Diploma in Cloud and Data Centre Administration with distinction, mastering core concepts in cloud architecture, networking, and security.</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Obtain Professional Certifications</h4>
+                                <p>Pursue and achieve AWS Solutions Architect Professional, Azure Solutions Architect Expert, and Google Cloud Professional Cloud Architect certifications to validate my expertise.</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Gain Practical Experience</h4>
+                                <p>Secure internships and participate in real-world cloud migration projects, contributing to the design and implementation of enterprise-grade cloud solutions.</p>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Build Portfolio Projects</h4>
+                                <p>Develop and showcase diverse cloud-based projects including serverless applications, containerized microservices, and AI-integrated solutions on my portfolio.</p>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- Necessary Skills -->
+                <div class="goal-card goal-card-wide stagger-item collapsible-card">
+                    <div class="card-header" onclick="toggleCard(this)">
+                        <div class="header-content">
+                            <div class="goal-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Necessary Skills to Learn</h3>
+                        </div>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="card-content collapsed">
+                        <div class="skills-to-learn">
+                        <div class="skill-learn-item">
+                            <div class="skill-learn-header">
+                                <i class="fas fa-code"></i>
+                                <h4>Advanced Programming & Scripting</h4>
+                            </div>
+                            <div class="skill-learn-details">
+                                <p><strong>Skills Needed:</strong> Python (advanced level), Terraform/CloudFormation (Infrastructure as Code), Bash scripting, PowerShell</p>
+                                <p><strong>Learning Method:</strong> AWS/Azure official training courses, Udemy advanced programming courses, hands-on projects with GitHub repositories, contribute to open-source IaC projects</p>
+                                <p><strong>Timeline:</strong> Master fundamentals within 6 months (by June 2025), achieve advanced proficiency within 12 months (by December 2025)</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-learn-item">
+                            <div class="skill-learn-header">
+                                <i class="fas fa-network-wired"></i>
+                                <h4>Cloud Networking & Security</h4>
+                            </div>
+                            <div class="skill-learn-details">
+                                <p><strong>Skills Needed:</strong> VPC design, load balancing strategies, DDoS protection, zero-trust architecture, identity and access management (IAM)</p>
+                                <p><strong>Learning Method:</strong> AWS Security Specialty and Networking Specialty certifications, hands-on labs in cloud sandboxes, security workshops and webinars</p>
+                                <p><strong>Timeline:</strong> Complete security fundamentals by August 2025, obtain advanced networking certification by February 2026</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-learn-item">
+                            <div class="skill-learn-header">
+                                <i class="fas fa-cubes"></i>
+                                <h4>Container Orchestration & Microservices</h4>
+                            </div>
+                            <div class="skill-learn-details">
+                                <p><strong>Skills Needed:</strong> Docker containerization, Kubernetes (K8s) orchestration, service mesh (Istio), CI/CD pipeline design with Jenkins/GitLab</p>
+                                <p><strong>Learning Method:</strong> Kubernetes certification (CKA), Docker Deep Dive courses, build and deploy containerized applications, mentorship from experienced DevOps engineers</p>
+                                <p><strong>Timeline:</strong> Docker proficiency by April 2025, Kubernetes certification by September 2025, production-ready skills by January 2026</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item stagger-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:tomchoi129700@gmail.com">tomchoi129700@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item stagger-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/tom-choi-4b809032a/" target="_blank">Tom Choi</a>
+                        </div>
+                    </div>
+                    <div class="contact-item stagger-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Hong Kong SAR</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Choi Ka Ching. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="mailto:tomchoi129700@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/tom-choi-4b809032a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
